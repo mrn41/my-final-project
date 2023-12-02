@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link href="css/styles.css" rel="stylesheet">
+<style>
+  
+
+  min-he
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+    .logo {
+    width: 200px;
+    top: -2px;
+    position: left;
+}
+   .logo-image{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.arrow2 {
+  border: solid green;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+  .down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.button {
+   color: white;
+  background-color: #04AA6D; 
+
+}
+.button2 {
+  color: white;
+  background-color: #555555;} 
+  </style>
+</head>
+
+<body>
+
+         <div class="navbar navbar-inverse navbar-fixed-top">
+
+       <div class="navbar-header">
+
+                 <a href="#" class="navbar-brand" style="font-size: 12px; color:yellow;">&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160EXPLORE</a>      
+                       <div class="navbar-collapse collapse navbar-responsive-collapse">
+                    <ul class="nav navbar-nav">
+                       <li><img src="https://assets.codepen.io/t-1/codepen-wordmark-white.png" alt="logo" class="logo"></li>
+  <li><a href="#pens">Pens</a></li>
+  <li><a href="#projects">Projects</a></li>
+  <li><a href="#posts">Posts</a></li>
+  <li><a href="#collections">Collections</a></li>
+  <li><a href="#">Spark <i class="arrow down"></i></a></li>
+
+ 
+        <ul class="nav navbar-nav navbar-right">
+   <li> &#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160</li>
+       <li><a href="#">Create <i class="arrow2 down"></i></a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-search"></span> </a></li>
+           <li><a href="#">Log In </a></li>
+           <li><a href="#">Sign Up</a></li>
+    </ul>                         
+ 
+                </div>
+
+        
+
+            </div>
+
+          
+
+        </div>
+
+  
+
+    <div class="jumbotron text-center">
+
+
+    </div>
+
+    <div class="navbar navbar-default navbar-fixed-left">
+
+        <ul class="container">
+
+            <p class="navbar-text pull-left">CodePen is a <b>social development environment</b> <br>for front-end designers and developers.<span>&#9995;</span><br> It's the best place to build and deploy <br>a website, show off your work, build test cases, <br>and find inspiration. </p>  
+&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160
+        
+          <iframe src="demo_iframe.htm" style="border:none;" title="Iframe Example"></iframe>
+          
+          <ul>
+          <li><button class="button">
+Sign Up For Free</button></li>
+           <li>&#160&#160&#160<button class="button button2">Learn More</button></li>
+   
+        </div>
+      
+      
+
+    </div>
+
+        
+</body>
+
+</html>
