@@ -129,19 +129,16 @@ li a:hover:not(.active) {
 
             <p class="navbar-text pull-left">CodePen is a <b>social development environment</b> <br>for front-end designers and developers.<span>&#9995;</span><br> It's the best place to build and deploy <br>a website, show off your work, build test cases, <br>and find inspiration. </p>  
 &#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160
-        
+           
           <iframe src="demo_iframe.htm" style="border:none;" title="Iframe Example"></iframe>
           
-          <ul>
+        
           <li><button class="button">
 Sign Up For Free</button></li>
            <li>&#160&#160&#160<button class="button button2">Learn More</button></li>
-   
+    </ul>
         </div>
       
-      
-
-    </div>
 
         
 </body>
