@@ -177,7 +177,7 @@ body {margin:0;}
 
 #fbox1 {
 	border: 3px outset white;
-	width: 200px;
+	width: 230px;
 	height: 50px;
 	position: inline-block;
 	float: left;
@@ -185,7 +185,7 @@ body {margin:0;}
 
 #fbox2 {
 	border: 3px outset white;
-	width: 200px;
+	width: 230px;
 	height: 50px;
 	position: inline-block;
 	float: left;
@@ -193,7 +193,7 @@ body {margin:0;}
 
 #fbox3 {
 	border: 3px outset white;
-	width: 200px;
+	width: 220px;
 	height: 50px;
 	position: inline-block;
 	float: left;
@@ -201,7 +201,7 @@ body {margin:0;}
 
 #fbox4 {
 	border: 3px outset white;
-	width: 200px;
+	width: 227px;
 	height: 50px;
 	position: inline-block;
 	float: left;
@@ -252,7 +252,7 @@ Sign Up For Free</button>
         </div>
         <div style="margin-left: 15%; height: 100px;"> 
          <br><br>
-        &#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160<span>This is <span style="color:#33cccc";> <b>CodePen  Projects</span>!</span><br>
+        &#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160<span>This is <span style="color:#33cccc";> <b>CodePen  Projects</span>!</span><br>
            <iframe align="right" width="300px" height="300px" src="codepen.io/pen"></iframe>
         </div>
     </div>
