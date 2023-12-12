@@ -5,6 +5,11 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+.header {
+margin: 0px;
+padding: 0px;
+  }
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -13,14 +18,14 @@ body {
 }
 .logo {
  float: left;
-    width: 180px;
+    width: 170px;
     top: -2px;
     position: left;
 }
    .logo-image{
     
-    width: 18px;
-    height: 18px;
+    width: 10px;
+    height: 13px;
     border-radius: 50%;
     overflow: hidden;
     margin-top: -6px;
@@ -54,28 +59,29 @@ body {
 
 .topnav2 a {
   float: left;
-  color: #f2f2f2;
+  color: 	#FFFFFF;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .topnav2 a:hover {
-  background-color: #ddd;
-  color: black;
+  color: #FFFFFF;
+  background-color: #808080;
 }
 
 
 
 .topnav-right {
   float: right;
+
   
 }
 
 
 footer {
-  background-color: #333;
+  background-color: #000000;
   padding: 10px;
   text-align: center;
   color: white;
@@ -83,27 +89,26 @@ footer {
 
 .navbar {
   width: 80%;
-  background-color: #333;
+  background-color: #000000;
   overflow: auto;
+  padding: 15px 25px;
 }
 
 .navbar a {
   float: right;
-  padding: 12px;
+
   color: white;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 40px;
 }
 
 .navbar a:hover {
-  background-color: #000;
+  background-color: #000000;
 }
 
 .active {
   background-color: #333;
 }
-
-
 
 
   .arrow {
@@ -139,7 +144,7 @@ footer {
 
 
 .button2 {
-  background-color: #555555; 
+  background-color: #000000; 
   border: none;
   color: white;
   padding: 15px 32px;
@@ -151,9 +156,12 @@ footer {
   cursor: pointer;
 }
 
-body {margin:0;}
-
-
+body {margin:0;
+  background-color: #696969}
+img {
+  margin: 0; 
+    padding: 4px 18px;
+  }
 
 .box {
       display: none;
@@ -170,92 +178,109 @@ body {margin:0;}
 	width: 100%;
 	clear: both;
 	text-align: center;
-	background-color: black;
+	background-color: #000000;
 	opacity: 0.7;
 	height: 150px;
 }
 
 #fbox1 {
-	border: 3px outset white;
-	width: 230px;
+	border: 3px outset #FFFFFF;
+	width: 410px;
 	height: 50px;
 	position: inline-block;
 	float: left;
+  
 }
 
 #fbox2 {
-	border: 3px outset white;
-	width: 230px;
+	border: 3px outset #FFFFFF;
+	width: 409px;
 	height: 50px;
 	position: inline-block;
-	float: left;
+	float: left
+
 }
 
 #fbox3 {
-	border: 3px outset white;
-	width: 220px;
+	border: 3px outset #FFFFFF;
+	width: 410px;
 	height: 50px;
 	position: inline-block;
 	float: left;
 }
 
 #fbox4 {
-	border: 3px outset white;
-	width: 227px;
+	border: 3px outset #FFFFFF;
+	width: 410px;
 	height: 50px;
 	position: inline-block;
 	float: left;
 }
-  
+ 
+ .page-container {
+      position: relative;
+      min-height: 100vh;
+    }
+    
+    .content-wrap {
+      padding-bottom: 2.5rem;    
+    }
+    
+    .footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      height: 2.5rem;          
+    }
+
 </style>
 </head>
 <body>
 <div class="topnav">
-<img src="https://www.fundacionvass.org/wp-content/uploads/2020/12/Logotipo-Fundacio%CC%81n-VASS_POS.png" alt="logo" class="logo">
-<a href="#explore" class="active" style="font-size: 12px; color:yellow;">EXPLORE</a> 
+<code style="font-size: 14px; color:yellow">&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160EXPLORE</code> 
   </div>
   
 <div class="topnav2">
 <img src="https://assets.codepen.io/t-1/codepen-wordmark-white.png" alt="logo" class="logo">
-  <a class="active" href="#home">Pens</a>
-  <a href="#news">Projects</a>
-  <a href="#contact">Posts</a>
-   <a href="#collections">Collections</a>
-  <a href="#">Spark&#160<i class="arrow down"></i></a>
-
+  <a class="active" href="#pens">&#160&#160&#160&#160&#160&#160&#160&#160Pens</a>
+  <a href="#">Projects</a>
+  <a href="#">Posts</a>
+   <a href="#">Collections</a>
+  <a href="#">Spark&#160&#160<i class="arrow down"></i></a>
   <div class="topnav-right">
 
- <a href="#">Create&#160<i class="arrow2 down"></i></a>
+ <a href="#">Create&#160&#160<i class="arrow2 down"></i></a>
 <a href="#"><i class="fa fa-search"style="font-size:20px;color:white"></i>
           <a href="#">Log In </a>
           <a href="#">Sign Up</a>
   </div>
 </div>
 
-
-    
-                  
+    <br><br>
                     
                     
                     <div style="width: 100%;">
         <div style="width: 50%; height: 100px; float: left;"> 
            
-<div style="padding-left:28px">
+ <div style="padding-left: 100px">
  <br><br><p class="navbar-text pull-left">CodePen is a <b>social development environment</b> <br>for front-end designers and developers.<span>&#9995;</span><br><br> It's the best place to build and deploy <br>a website, show off your work, build test cases, <br>and find inspiration. </p>  
 </div>
- <div style="padding-left:28px">
+          <br><br><br><br><br><br><br>   <br><br>    
+ <div style="padding-left:100px">
          
          <button class="button">
 Sign Up For Free</button>
            &#160&#160&#160<button class="button2">Learn More</button>
 </div>
         </div>
-        <div style="margin-left: 15%; height: 100px;"> 
+        <div style="margin-left: 18%; height: 80px;"> 
          <br><br>
-        &#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160<span>This is <span style="color:#33cccc";> <b>CodePen  Projects</span>!</span><br>
-           <iframe align="right" width="300px" height="300px" src="codepen.io/pen"></iframe>
+        &#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160 <area>This is <span style="color:#33cccc"; align:right"> <b>CodePen  Projects</span>!</area><br>
+       
+           &#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160<img src="https://static.codepen.io/assets/home/projects-screenshot-467e7f59383af0f15a7800660f84cf9544837140d29f8f6336099799dd32afd7.png" width="350px" height="300px">
         </div>
     </div>
+  <br><br><br><br><br><br><br><br> <br><br><br><br><br><br><br>    
                 </div>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <div id="footer">
